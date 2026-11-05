@@ -114,7 +114,14 @@ Most AI tools sit outside your workflow, blind to your context. ORIN changes tha
 | **AI/Integration** | Google Gemini API, Notion REST OAuth, Notion MCP OAuth + Client |
 | **Deployment** | Vercel (frontend), Render-ready (backend), PostgreSQL |
 
+<details>
+<summary><b>Expand ️ Tech Stack Details</b></summary>
+<br/>
+
 ---
+
+<br/>
+</details>
 
 ## ️ System Flow
 
@@ -147,14 +154,25 @@ Most AI tools sit outside your workflow, blind to your context. ORIN changes tha
     └──────────────────────┘
 ```
 
+<details>
+<summary><b>Expand ️ System Flow Details</b></summary>
+<br/>
+
 For detailed technical architecture, see [ARCHITECTURE.md](ARCHITECTURE.md).
 
 
 ---
 
-##  Environment Setup
+<br/>
+</details>
+
+## Environment Setup
 
 ### Backend Minimum Requirements
+
+<details>
+<summary><b>Expand Environment Setup Details</b></summary>
+<br/>
 
 ```env
 # Core
@@ -185,7 +203,10 @@ NEXT_PUBLIC_WS_URL=ws://localhost:8000/ws
 
 ---
 
-##  Project Structure
+<br/>
+</details>
+
+## Project Structure
 
 ```
 ORIN/
@@ -197,9 +218,16 @@ ORIN/
 └─ ️  LICENSE            ISC License
 ```
 
+<details>
+<summary><b>Expand Project Structure Details</b></summary>
+<br/>
+
 ---
 
-##  Documentation
+<br/>
+</details>
+
+## Documentation
 
 | Doc | Purpose |
 |-----|---------|
@@ -210,7 +238,14 @@ ORIN/
 | [frontend/README.md](frontend/README.md) | Frontend architecture & setup |
 | [backend/README.md](backend/README.md) | Backend API routes & configuration |
 
+<details>
+<summary><b>Expand Documentation Details</b></summary>
+<br/>
+
 ---
+
+<br/>
+</details>
 
 ##  Notion MCP Challenge Submission
 
