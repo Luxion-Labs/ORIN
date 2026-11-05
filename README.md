@@ -152,36 +152,6 @@ For detailed technical architecture, see [ARCHITECTURE.md](ARCHITECTURE.md).
 
 ---
 
-##  Quick Start
-
-### Prerequisites
--  Bun or Node.js 20+
--  Google Gemini API key
--  Database (SQLite for local, PostgreSQL for production)
--  Notion OAuth credentials (optional, for REST API)
--  Notion MCP OAuth credentials (optional, for native MCP)
-
-### 1️⃣ Start Backend
-```bash
-cd backend
-bun install
-bunx prisma generate
-bun run dev
-```
-
-### 2️⃣ Start Frontend
-```bash
-cd frontend
-bun install
-bun run dev
-```
-
-### 3️⃣ Open App
--  **Frontend:** http://localhost:3000
--  **Health Check:** http://localhost:8000/api/health
-
----
-
 ##  Environment Setup
 
 ### Backend Minimum Requirements
@@ -294,6 +264,3 @@ ORIN shows what's possible when AI has **native access to your workspace**. No A
 
 ## Maintainer Response SLA
 Luxion Labs enforces a strict 24-hour response SLA on all community issues, feature proposals, and pull requests. See [CONTRIBUTING.md](CONTRIBUTING.md) for full development guidelines.
-
-## License
-Distributed under the MIT License. See [LICENSE](LICENSE) for details.
